@@ -1,0 +1,25 @@
+# Environnement Python
+.env
+.venv/
+venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# ChromaDB (base vectorielle locale)
+chroma_db/
+
+# Données brutes scrappées
+data/python_docs/*.html
+data/python_docs/*.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
