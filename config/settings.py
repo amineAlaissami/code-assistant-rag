@@ -33,6 +33,7 @@ class Settings(BaseSettings):
 
     # Embeddings
     embedding_model: str = Field(default="text-embedding-3-small", env="EMBEDDING_MODEL")
+    local_embedding_model: str = Field(default="all-MiniLM-L6-v2", env="LOCAL_EMBEDDING_MODEL")
 
     # ChromaDB
     chroma_persist_dir: str = Field(default="./chroma_db", env="CHROMA_PERSIST_DIR")
